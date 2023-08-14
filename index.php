@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./css/style.css">
-	<title>Menu Mobile</title>
-</head>
-<body>
-	<header id="header">
+   
+    <?php
+		include_once("./views/header.php");        
+    ?>	
+    <header id="header">
 		<a id="logo" href="#">Logo</a>
 		<nav id="nav">
 			<button aria-label="Abrir menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
@@ -20,8 +15,8 @@
 				<li><a href="#">Contato</a></li>
 			</ul>
 		</nav>
-	</header>
+	</header> 
 
-	<script src="./js/script.js"></script>
-</body>
-</html>
+    <?php 
+		include_once("./views/footer.php"); 
+	?>
